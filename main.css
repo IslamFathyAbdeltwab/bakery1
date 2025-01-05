@@ -1,0 +1,314 @@
+/* global */
+body {
+    margin: 0;
+}
+
+.container {
+    width: 97%;
+    margin: auto;
+}
+
+.clr-fix {
+    clear: both;
+}
+
+/* end global */
+/* start nav */
+.nav {
+    background-color: #0c343a;
+    padding: 5px 10px;
+}
+
+.navcontent {
+    float: left;
+
+}
+
+.nav .links {
+    /* width: 80%; */
+    float: right;
+
+}
+
+.nav .links li {
+    display: inline;
+    padding: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav .img {
+    width: 4%;
+}
+
+.nav img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* end nav----------------------------------------------- */
+/* star home----------------------------------------------- */
+.home {
+    background-image: url(img/bg.jpg );
+    background-size: cover;
+    color: white;
+    height: calc(100vh - 72px);
+
+}
+
+.home .content {
+    text-align: center;
+    /* background-color: rgb(43, 62, 62); */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home .content span {
+    font-size: 20px;
+    color: teal;
+}
+
+.home .content h1 {
+    padding: 10px 0px;
+    /* color: brown; */
+    font-size: 64px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.home .content p {
+    font-size: 20px;
+    color: blanchedalmond;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 10px;
+}
+
+.home .content button {
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 6px;
+    border: 2px solid rgb(46, 190, 180);
+
+}
+
+.home .content .special {
+    background-color: teal;
+    border: 2px solid rgb(46, 190, 180);
+}
+
+/* end home----------------------------------------------- */
+/* start abour----------------------------------------------- */
+.about {
+    padding: 50px 10px;
+
+}
+
+.about .img {
+    width: 45%;
+
+    float: left;
+}
+
+.about .img img {
+    width: 90%;
+}
+
+.about .content {
+    width: 54%;
+    float: right;
+}
+
+.about .content h2 {
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.about .content p {
+    padding: 15px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 450;
+}
+
+.about .content .icon {
+    width: 5%;
+    float: left;
+    padding: 10px;
+
+}
+
+.about .content .icon img {
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+/* end abour----------------------------------------------- */
+/* start ouroffer------------------------------------ */
+.ouroffer {
+    padding: 50px 0px;
+    background-color: rgb(214, 212, 212);
+
+}
+
+.ouroffer .content {
+    float: left;
+    /* background-color: teal; */
+    width: 50%;
+    padding: 50px 10px;
+
+}
+
+.ouroffer .content h2 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px 10px;
+
+}
+
+.ouroffer .content p {
+    font-size: 24px;
+    font-weight: 450;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0px;
+    line-height: 1.8;
+
+}
+
+.ouroffer .img {
+    float: right;
+    /* background-color: tomato; */
+    width: 45%;
+}
+
+.ouroffer .img img {
+    width: 90%;
+    padding-left: 30px;
+}
+
+/* end ouroffer------------------------------------ */
+/* start ouroffer------------------------------------ */
+.backing {
+    padding: 50px 0px;
+}
+
+.backing .header {
+    text-align: center;
+
+}
+
+.backing .header h2 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.backing .header p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.backing .item {
+    width: 33.3%;
+    /* background-color: teal; */
+    text-align: center;
+    float: left;
+}
+
+.backing .item img {
+    width: 90%;
+}
+
+/* end ouroffer------------------------------------ */
+/* start location------------------------------------ */
+.location {
+    padding: 50px 0px;
+    background-color: azure;
+}
+
+.location .content {
+    width: 48%;
+    float: left;
+    padding-left: 20px;
+}
+
+.location .content h2 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0 12px;
+}
+
+.location .content p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 12px;
+    line-height: 1.5;
+}
+
+.location .img {
+    width: 50%;
+    float: right;
+}
+
+.location .img img {
+    width: 90%;
+    margin-left: 40px;
+}
+.location .content .contact{
+  float: left;
+}
+.location .content .contact.img{
+    width: 4%;
+    border-radius: 50%;
+    margin: 20px 10px 0px 10px;
+}
+
+/* end location------------------------------------ */
+/* start footer------------------------------------ */
+.footer{
+    padding: 50px 0px;
+    background-color: rgb(0, 0, 0);
+}
+.footer .one{
+    width: 22%;
+    float: left;
+    padding-right: 30px;
+    color: rgb(208, 205, 205);
+    padding-left: 10px;
+}
+.footer .one h3{
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+.footer .one p{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px gray solid;
+}
+
+
+
+/* end footer------------------------------------ */
+.para{
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgb(45, 44, 44);
+}
+ .para h2{
+font-size: 128px;
+font-weight: 800;
+margin:0 ;
+
+/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
+}
